@@ -56,8 +56,8 @@ define(['jquery', 'react', 'css!src/view/Button.react'], function ($, React) {
         },
         /**
          * 改变按钮样式
-         * @param  {[type]} skin [description]
-         * @return {[type]}      [description]
+         * @public
+         * @param  {String} skin primary, danger, warning, info, success, link
          */
         skin: function (skin) {
             this.setState({
