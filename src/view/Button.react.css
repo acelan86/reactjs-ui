@@ -1,0 +1,134 @@
+button.ui-button:focus{
+    outline:none;
+}
+.ui-button{
+    vertical-align: baseline;
+    border-radius: 3px;
+    padding:0px 1em;
+    line-height: 2em;
+    font-size: 1em;
+    color: #333;
+    border:1px solid #ccc;
+    background-color: #fff;
+    box-sizing:border-box;
+}
+.ui-button:hover,
+.ui-button:focus,
+.ui-button:active{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+/* 相邻button间隔5px */
+* + .ui-button{
+    margin-left:5px;
+}
+
+/* skin */
+.ui-button-primary{
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.ui-button-primary:hover,
+.ui-button-primary:focus,
+.ui-button-primary:active{
+    background-color: #3071a9;
+    border-color: #285e8e;
+}
+
+.ui-button-success{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.ui-button-success:hover,
+.ui-button-success:focus,
+.ui-button-success:active{
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.ui-button-info{
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.ui-button-info:hover,
+.ui-button-info:focus,
+.ui-button-info:active{
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+
+.ui-button-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.ui-button-warning:hover,
+.ui-button-warning:focus,
+.ui-button-warning:active{
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+
+.ui-button-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.ui-button-danger:hover,
+.ui-button-danger:focus,
+.ui-button-danger:active{
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+.ui-button-link{
+    border: none;
+    background-color: transparent;
+    color: #428bca;
+}
+.ui-button-link:hover,
+.ui-button-link:focus,
+.ui-button-link:active{
+    color: #2a6496;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+/* size */
+.ui-button-l{
+    font-size:1.8em;
+}
+.ui-button-m{
+    font-size:1.4em;
+}
+.ui-button-s{
+    font-size:.8em;
+}
+
+/* disabled */
+.ui-button-disabled,
+.ui-button-disabled:hover,
+.ui-button-disabled:focus,
+.ui-button-disabled:active{
+    color:#ccc;
+    background-color:#eee;
+    border-color:#ccc;
+}
+.ui-button-link.ui-button-disabled{
+    background-color:transparent;
+    text-decoration: none;
+}
+
+/* block */
+.ui-button-block{
+    display:block;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
