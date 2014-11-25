@@ -5,7 +5,7 @@ define(['jquery', 'react', 'css!src/view/Button.react'], function ($, React) {
         getInitialState: function () {
             return {
                 disabled: !!this.props.disabled,
-                text: this.props.children.toString() || '获取中...',
+                text: this.props.children.toString() || (this.props.text ? '获取中...' : '按钮'),
                 skin: this.props.skin || null
             };
         },

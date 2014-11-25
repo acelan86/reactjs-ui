@@ -2,7 +2,7 @@ button.ui-button:focus{
     outline:none;
 }
 .ui-button{
-    vertical-align: baseline;
+    vertical-align: middle;
     border-radius: 3px;
     padding:0px 1em;
     line-height: 2em;
@@ -11,6 +11,7 @@ button.ui-button:focus{
     border:1px solid #ccc;
     background-color: #fff;
     box-sizing:border-box;
+    font-family: inherit;
 }
 .ui-button:hover,
 .ui-button:focus,
