@@ -1,4 +1,6 @@
 define(['jquery', 'react', 'css!src/view/Button.react'], function ($, React) {
+    "use strict";
+
     var Button = React.createClass({
         getInitialState: function () {
             return {
@@ -50,6 +52,16 @@ define(['jquery', 'react', 'css!src/view/Button.react'], function ($, React) {
         disable: function () {
             this.setState({
                 disabled: true
+            });
+        },
+        /**
+         * 改变按钮样式
+         * @param  {[type]} skin [description]
+         * @return {[type]}      [description]
+         */
+        skin: function (skin) {
+            this.setState({
+                skin: skin || null
             });
         },
         render: function () {
