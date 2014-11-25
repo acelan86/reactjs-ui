@@ -70,6 +70,8 @@ require(["backbone", "release/router", "react", "release/view/Button.react"], fu
                     <Button onclick={this.enable}>启用主要按钮</Button>
                     |
                     <Button block size="m" skin="info">块状按钮</Button>
+                    |
+                    <Button skin="success" text="./api/getButtonText.json">加载中...</Button>
                 </div>
             );
         }
